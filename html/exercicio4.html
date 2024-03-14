@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 4</title>
+</head>
+<body>
+    <script src="../js/exercicio4.js"></script>
+
+    <b>Crie uma função em JavaScript que receba 2 palavras através de campos de
+        formulário e depois imprima-as intercaladas em um outro campo de formulário que deve
+        está desabilitado (o usuário não deve conseguir digitar nenhum valor nesse campo). Ex.:
+        ‘Joao’ e ‘Mary’; a impressão deve ser: ‘Jmoaaroy’.</b>
+    <hr>
+    <br><br>
+
+    <div>
+        <h3>Insira duas palavras</h3>
+
+        <form>
+            <label for="palavra1">Primeira palavra: </label><br>
+            <input type="text" id="palavra1"><br>
+
+            <label for="palavra2">Segunda palavra:</label><br>
+            <input type="text" id="palavra2"><br><br>
+
+            <input type="button" onclick="intercalar()" value="Intercalar">
+            <input type="reset" id="limpar" value="Limpar"><br><br><br>
+
+            <label for="resultado">Resultado: </label>
+            <input type="text" id="resultado" disabled>
+        </form>
+    </div>
+
+    <br><br>
+    <a href="index.html"><button>Voltar</button></a>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 3</title>
+</head>
+<body>
+    <b>Crie um código em Javascript que receba os nomes de 5 pessoas através de campos
+        de formulário(FORM HTML). Ao clicar em um botão Inverter, armazene-os em um array e
+        apresente os valores nos mesmos campos do formulário, porém na ordem inversa da que
+        foram inicialmente digitados.</b>
+    <hr>
+    <br><br>
+    <script src="../js/exercicio3.js"></script>
+    <div>
+        <h3>Insira 5 nomes</h3>
+        <br>
+ 
+        <form>
+            <label for="desnome1">Primeiro nome:</label><br>
+            <input type="text" id="nome1"><br>
+
+            <label for="desnome2">Segundo nome:</label><br>
+            <input type="text" id="nome2"><br>
+
+            <label for="desnome3">Terceiro nome:</label><br>
+            <input type="text" id="nome3"><br>
+
+            <label for="desnome4">Quarto nome:</label><br>
+            <input type="text" id="nome4"><br>
+
+            <label for="desnome5">Quinto nome:</label><br>
+            <input type="text" id="nome5"><br><br>
+
+            <input type="button" onclick="salvaInverte()" value="Inverter">
+            
+        </form>
+    </div>
+
+    <br><br>
+    <a href="index.html"><button>Voltar</button></a>
+</body>
+</html>
