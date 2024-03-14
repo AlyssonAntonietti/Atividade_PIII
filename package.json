@@ -1,0 +1,16 @@
+{
+  "name": "atividadesnota",
+  "version": "1.0.0",
+  "description": "Atividades de formulário valendo nota",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alysson Antonietti",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^29.1.1",
+    "electron-reload": "^2.0.0-alpha.1"
+  }
+}
